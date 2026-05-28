@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | Printology</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/branding/logo.png" alt="Printology Logo">
+        </a>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="catalog.html">All Products</a>
+        <a href="bags.html">Bags</a>
+        <a href="socks.html">Socks & Sleeves</a>
+        <a href="displays.html">Displays</a>
+        <a href="notebooks.html">Notebooks</a>
+        <a href="tshirts.html">Clothing</a>
+        <a href="custom.html">Custom</a>
+        <a href="cart.html">Quote List (<span id="quote-count">0</span>)</a>
+    </nav>
+</header>
+
+<main class="product-page">
+    <img id="product-img" alt="">
+
+    <div class="product-info">
+        <h1 id="product-name">Loading product...</h1>
+
+        <label for="size">Size</label>
+        <select id="size">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+        </select>
+
+        <label for="color">Color</label>
+        <select id="color">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Navy</option>
+            <option>Grey</option>
+        </select>
+
+        <button id="add-product-quote" onclick="addCurrentProductToQuote()" class="buy-btn">Add to Quote</button>
+        <button onclick="requestProductQuote()" class="buy-btn secondary-btn">Quote This Item</button>
+    </div>
+</main>
+
+<footer id="contact">
+    <p>&copy; 2026 Printology</p>
+</footer>
+
+<script src="js/products-data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+

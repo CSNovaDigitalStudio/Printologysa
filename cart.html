@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote List | Printology</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/branding/logo.png" alt="Printology Logo">
+        </a>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="catalog.html">All Products</a>
+        <a href="bags.html">Bags</a>
+        <a href="socks.html">Socks & Sleeves</a>
+        <a href="displays.html">Displays</a>
+        <a href="notebooks.html">Notebooks</a>
+        <a href="tshirts.html">Clothing</a>
+        <a href="event-production.html">Event Production</a>
+        <a href="custom.html">Custom</a>
+        <a href="cart.html">Quote List (<span id="quote-count">0</span>)</a>
+    </nav>
+</header>
+
+<main class="cart-page">
+    <h1 class="page-title">Quote List</h1>
+    <p class="section-intro">Add multiple products, adjust quantities, and send one WhatsApp quote request with all item details included.</p>
+    <div id="quote-empty" class="empty-cart">Your quote list is empty.</div>
+    <div id="quote-items" class="quote-items"></div>
+    <div id="quote-actions" class="cart-actions" hidden>
+        <button onclick="sendQuoteCart()">Send Quote Request</button>
+        <button onclick="clearQuoteCart()" class="secondary-btn">Clear List</button>
+    </div>
+    <div class="cart-actions">
+        <a href="catalog.html" class="buy-btn">Browse Products</a>
+    </div>
+</main>
+
+<footer id="contact">
+    <p>&copy; 2026 Printology</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+

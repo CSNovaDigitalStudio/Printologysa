@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Production | Printology</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/branding/logo.png" alt="Printology Logo">
+        </a>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="catalog.html">All Products</a>
+        <a href="event-production.html">Event Production</a>
+        <a href="custom.html">Custom</a>
+        <a href="cart.html">
+            Quote List (<span id="quote-count">0</span>)
+        </a>
+    </nav>
+</header>
+
+<main class="catalog-page">
+
+    <section class="catalog-hero">
+        <h1>Audio Visual & Event Production</h1>
+
+        <p>
+            LED screens, sound systems, staging,
+            lighting, live streaming, rigging,
+            and full-scale production solutions.
+        </p>
+    </section>
+
+    <section class="catalog-tools">
+        <input
+            id="catalog-search"
+            type="search"
+            placeholder="Search AV services..."
+        >
+
+        <select id="catalog-category">
+            <option value="all">All categories</option>
+        </select>
+
+        <p id="catalog-count"></p>
+    </section>
+
+    <section
+        id="catalog-grid"
+        class="catalog-grid"
+        data-category="Event Production"
+        aria-live="polite">
+    </section>
+
+</main>
+
+<footer id="contact">
+    <p>&copy; 2026 Printology</p>
+</footer>
+
+<script src="js/catalog-data.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Classic Hoodie", "price": 599, "image": "images/hoodies/hoodie1.jpg" },
+  { "id": 2, "name": "Street Hoodie", "price": 649, "image": "images/hoodies/hoodie2.jpg" },
+  { "id": 3, "name": "Oversized Hoodie", "price": 699, "image": "images/hoodies/hoodie3.jpg" },
+  { "id": 4, "name": "Zip Hoodie", "price": 649, "image": "images/hoodies/hoodie4.jpg" },
+  { "id": 5, "name": "Heavyweight Hoodie", "price": 799, "image": "images/hoodies/hoodie5.jpg" },
+  { "id": 6, "name": "Essential Hoodie", "price": 599, "image": "images/hoodies/hoodie6.jpg" }
+]
