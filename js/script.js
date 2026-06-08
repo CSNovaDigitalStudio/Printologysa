@@ -1,4 +1,20 @@
-const WHATSAPP_NUMBER = "27700000000";
+document.addEventListener("DOMContentLoaded", () => {
+
+    const navToggle = document.getElementById("nav-toggle");
+    const nav = document.getElementById("main-nav");
+
+    if (navToggle && nav) {
+        navToggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+
+            navToggle.innerHTML =
+                nav.classList.contains("active") ? "✕" : "☰";
+        });
+    }
+
+});
+
+const WHATSAPP_NUMBER = "27829080821";
 
 document.addEventListener("DOMContentLoaded", () => {
     updateQuoteCount();
@@ -320,3 +336,5 @@ function setupCatalogPage() {
             count.innerText = "Catalogue could not be loaded.";
         });
 }
+
+
