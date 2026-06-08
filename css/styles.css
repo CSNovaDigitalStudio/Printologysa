@@ -808,7 +808,7 @@ footer {
 
 @media (max-width: 430px) {
     .catalog-card {
-        grid-template-columns: 96px 1fr;
+        grid-template-columns: 180px 1fr;
     }
 
     .catalog-card img {
